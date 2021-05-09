@@ -1,0 +1,32 @@
+.navbar {
+  margin: 0px;
+  background-color: #636e72;
+  height: 4em;
+  box-shadow: 0px 5px 5px #b2bec3;
+}
+
+.navbar .nav_elements {
+  margin: 0px;
+  padding: 1em;
+  list-style: none;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_elements a {
+  text-decoration: none;
+}
+.nav_elements li {
+  -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+  font-size: large;
+  color: whitesmoke;
+  padding: 0px 6px 0px 6px;
+}
+
+.nav_elements li:hover {
+  transition: 0.2s ease-in-out;
+  color: rgb(122, 128, 133);
+  -webkit-text-stroke: 0.9px rgb(44, 40, 40);
+  cursor: pointer;
+}

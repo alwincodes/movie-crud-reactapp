@@ -1,0 +1,47 @@
+.regis_container {
+  margin: 4em auto;
+  width: 65%;
+  max-width: 400px;
+}
+.regis_container .page_heading {
+  text-align: center;
+}
+.regis_container .regis_fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.regis_container .input_text {
+  margin: 4px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+}
+.input_text:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.input_text:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+
+.regis_container .input_button {
+  background-color: #0984e3;
+  border: none;
+  color: #fdfdfd;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.input_button:hover {
+  border: 1px solid #0984e3;
+  background-color: #ffffff;
+  color: #0984e3;
+}
+.input_button:focus {
+  border: 1px solid #4885ed;
+  padding: 9px 19px;
+}
